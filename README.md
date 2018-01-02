@@ -1,5 +1,5 @@
 #Items Creator Tool to Mihikatsu Club
-Author : Jakub Zarêbski
+Author : Jakub ZarÃªbski
 External tool for quick editing XML files containing Items information which games load and use it to define loot drops
 ### Alpha 1 ###
 Features:
@@ -9,6 +9,7 @@ Features:
   - Required all data boxes to have information
     - Type is drop-down list containg allowed types of items
     - ID is automaticly determited
+
 To be added 
  - Changing Existing Items Values e.g. Description
  - Removing Item from list
