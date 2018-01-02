@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ItemsAdder.exe" version="1.0.0.0" publicKeyToken="c70b37c4de31430e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="PandaBottleAdd.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ItemsAdder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ItemsAdder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opcje manifestu Kontroli konta użytkownika
+             Jeśli chcesz zmienić poziom Kontroli konta użytkownika systemu Windows, zastąp 
+             węzeł requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Określenie elementu requestedExecutionLevel spowoduje wyłączenie wirtualizacji plików i rejestru. 
+            Usuń ten element, jeśli aplikacja wymaga wirtualizacji w celu zachowania
+            zgodności z poprzednimi wersjami.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ItemsAdder.exe" size="106424">
+      <assemblyIdentity name="ItemsAdder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>APuXXP8COfVHrqXcyoan4La5nyoBcJxaV2WFgL4HfXw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ItemsAdder.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PandaBottleAdd.ico" size="91198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qin/MOgtatuwRxaJ4cg+maCflyrqrVXu9OBi6gIS5As=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Lista wersji systemu Windows, na których ta aplikacja została przetestowana i 
+           dla których została zaprojektowana. Usuń oznaczenie komentarza dla odpowiednich elementów, a system Windows
+           automatycznie wybierze najbardziej zgodne środowisko. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=MIDORIPC\jakub" issuerKeyHash="d55f32cf7711274339e3923cf514999e734f1927" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gVF5CC53XkTgpmRybhniCQ7lNYHcHTHmOQcTH6NWJ5I=</DigestValue></Reference></SignedInfo><SignatureValue>mMnU9jxar4b0CeXAm+dJbpM4ULaJqLkNaCCYiPlNw4R2cgkgNYbemuBHrPN7RSC4pkgSWsKPQeS7OPJBtiCyFfaOWhHdsQ9D2A5bVuOQr0odqFPXKUwUNTS1xTbK0yR7Cj13cDc+9FORxEe/IOTofTMcYkmoxKhN0ybr6bpGI/g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xhQIG4t066xAYuE32nd2xsw3moctLiu/tAN6PKO57pT3Y7qXZ4fSuzHdXCedwnyJq/EkUXqfHRCuaPGDroGVzBJJEfR1Fn0F6oRsEjlpHI8fBwWIhg5h5hX3iU/ML4DCLfMoS2G0a5t2MPDk/znYoSQhUJspUznJ8cm6sGqy9fE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="922756a31f130739e6311ddc8135e50e09e2196e7264a6e0445e772e08795181" Description="" Url=""><as:assemblyIdentity name="ItemsAdder.exe" version="1.0.0.0" publicKeyToken="c70b37c4de31430e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MIDORIPC\jakub</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OuZLGWgsrNrL3/APZ0ECmc6Sc/LkxwttmqaRBOTZaig=</DigestValue></Reference></SignedInfo><SignatureValue>U0wvqJ/HHO8Nj4uoJ0t4WbBvzGJH++FS6p718qyq30xer2Z1SyuQXJ5+Ql13YMLwpHE+KJgkLArlruBQ/xKds3L+0VoZ11Gq8IfPJsyyVx+zZk0j/pSH/D+X6pD9FSE6ZYusuTG5x1ScZRr8bbzoel0toLsg6J5hLsKItQKsymA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xhQIG4t066xAYuE32nd2xsw3moctLiu/tAN6PKO57pT3Y7qXZ4fSuzHdXCedwnyJq/EkUXqfHRCuaPGDroGVzBJJEfR1Fn0F6oRsEjlpHI8fBwWIhg5h5hX3iU/ML4DCLfMoS2G0a5t2MPDk/znYoSQhUJspUznJ8cm6sGqy9fE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQM4SfIe5S3qNCpjN0WDy9aDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATQBJAEQATwBSAEkAUABDAFwAagBhAGsAdQBiMB4XDTE4MDEwMjE3MDMwM1oXDTE5MDEwMjIzMDMwM1owJzElMCMGA1UEAx4cAE0ASQBEAE8AUgBJAFAAQwBcAGoAYQBrAHUAYjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxhQIG4t066xAYuE32nd2xsw3moctLiu/tAN6PKO57pT3Y7qXZ4fSuzHdXCedwnyJq/EkUXqfHRCuaPGDroGVzBJJEfR1Fn0F6oRsEjlpHI8fBwWIhg5h5hX3iU/ML4DCLfMoS2G0a5t2MPDk/znYoSQhUJspUznJ8cm6sGqy9fECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAuZZY3kvUov7ouzq8Yg4PYtXp8tgofnqJ20E0ZyWuoWWXEj5bRDIilWHaznpgN8jce3N0bu/yqkSF+W/uNwYB2L64pOz23WAb61s8FdQg68tQ6xbsqdgdsGUzr4Ac1ytgk9e2l8g4/pWDZ1hQCNn4pPxEUtnXLgVLwVT42sG2hSg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

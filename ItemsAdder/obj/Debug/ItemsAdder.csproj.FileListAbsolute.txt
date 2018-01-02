@@ -1,0 +1,15 @@
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\bin\Debug\ItemsAdder.exe.config
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\bin\Debug\ItemsAdder.exe
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\bin\Debug\ItemsAdder.pdb
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.Form1.resources
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.Properties.Resources.resources
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.csproj.GenerateResource.Cache
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.csproj.CoreCompileInputs.cache
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.exe
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.pdb
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.csprojResolveAssemblyReference.cache
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\bin\Debug\ItemsAdder.exe.manifest
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\bin\Debug\ItemsAdder.application
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.TrustInfo.xml
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.exe.manifest
+C:\Users\jakub\Documents\Visual Studio 2017\Projects\ItemsAdder\ItemsAdder\obj\Debug\ItemsAdder.application
